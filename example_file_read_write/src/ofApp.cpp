@@ -25,11 +25,11 @@ void ofApp::setup()
         // now write without pretty print
         if (!result.save("example_output_fast.json", false))
         {
-            ofLogNotice("ofApp::setup") << "example_output_pretty.json written unsuccessfully.";
+            ofLogNotice("ofApp::setup") << "example_output_fast.json written unsuccessfully.";
         }
         else
         {
-            ofLogNotice("ofApp::setup") << "example_output_pretty.json written successfully.";
+            ofLogNotice("ofApp::setup") << "example_output_fast.json written successfully.";
         }
 
     }
@@ -48,8 +48,8 @@ void ofApp::draw()
 
     ofSetHexColor(0x00FF00);
 
-    std::stringstream ss;
 
+    std::stringstream ss;
 //    {
 //        "firstName": "John",
 //        "lastName": "Smith",
@@ -91,7 +91,6 @@ void ofApp::draw()
     ss << "phoneNumber:number = " << result["phoneNumber"][i]["number"].asString() << std::endl;
     ss << "phoneNumber:type   = " << result["phoneNumber"][i+1]["type"].asString() << std::endl;
     ss << "phoneNumber:number = " << result["phoneNumber"][i+1]["number"].asString() << std::endl;
-
     ofDrawBitmapString(ss.str(), 10, 14);
 
 }

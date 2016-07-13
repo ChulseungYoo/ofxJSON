@@ -31,7 +31,6 @@ bool ofxJSONElement::parse(const std::string& jsonString)
         ofLogError("ofxJSONElement::parse") << "Unable to parse string: " << reader.getFormattedErrorMessages();
         return false;
     }
-
     return true;
 }
 

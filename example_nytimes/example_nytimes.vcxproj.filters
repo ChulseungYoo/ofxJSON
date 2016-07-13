@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ofxJSONElement.cpp">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libs\jsoncpp\src\jsoncpp.cpp">
+      <Filter>addons\ofxJSON\libs\jsoncpp\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{8bcc67f2-16d5-49e6-b77a-3341835990ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON">
+      <UniqueIdentifier>{bec90c50-4057-4073-9ea9-95fbf6067ab7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\src">
+      <UniqueIdentifier>{b4e2e8a9-b8e5-41f6-ac3d-d42a5e153f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs">
+      <UniqueIdentifier>{2791ccfa-de5c-4fe1-b16c-fe69d87f2b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp">
+      <UniqueIdentifier>{6ccd1aa5-295b-4487-ad75-9a876e898cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\include">
+      <UniqueIdentifier>{17ef186d-59d9-497f-b708-4594088bdb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\include\json">
+      <UniqueIdentifier>{7719c6fb-43eb-473a-b7a2-319891277ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxJSON\libs\jsoncpp\src">
+      <UniqueIdentifier>{c9ad34ff-5820-4714-a6d1-f718db6d05db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ofxJSON.h">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ofxJSONElement.h">
+      <Filter>addons\ofxJSON\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\jsoncpp\include\json\json-forwards.h">
+      <Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\jsoncpp\include\json\json.h">
+      <Filter>addons\ofxJSON\libs\jsoncpp\include\json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
