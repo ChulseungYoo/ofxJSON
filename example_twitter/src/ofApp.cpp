@@ -3,7 +3,7 @@
 
 void ofApp::setup()
 {
-    std::string url = "https://api.twitter.com/1/trends/1.json";
+    std::string url = "https://api.twitter.com/1.1/trends/available.json";
 
     // Now parse the JSON
     bool parsingSuccessful = result.open(url);
